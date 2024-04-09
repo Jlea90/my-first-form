@@ -1,0 +1,67 @@
+
+
+<!HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">How Did We Do?</h1>
+    <p id="description"><em>We value your opinion! Help us improve our customer service by completing this brief survey.</em></p>
+    
+    <form id="survey-form">
+      <label id="name-label" for="name">Enter your first name:<br> 
+        <input type="text" id="name" placeholder="Jana" required>
+        </label><br>
+        <label for="lastname">Enter your last name:<br>
+          <input name="lastname" id="lastname" type="text" placeholder="Martin" required>
+          </label><br>
+          <label id="email-label" for="email">Please enter your full email address:<br>
+            <input id="email" name="email" type="email" placeholder="example@email.com" required></label><br>
+   <label id="number-label" for="number">What's your age? <br>
+     <input type="number" id="number" name="age" min="13" max="100" placeholder="100?"/></label><br>
+
+     <label for="dropdown">Which services did we provide?
+       <select id="dropdown" name="services">  
+         <option id="">[select one]</option>
+         <option id="1">Mental Health</option>
+         <option id="2">Gynecology</option>
+         <option id="3">Primary Care</option>
+         <option id="4">Other</option>
+         </select>
+
+        <hr>
+        <p>Would you recommend us to family and friends?</p>
+         <label for="yes">YES<input id="yes" name="recommend" type="radio" value="yes">
+         </label>
+         <label for="no">NO<input id="no" type="radio" name="recommend" value="no">
+         </label>
+         <br>
+<p>Which charactisterics did our providers display? [select all that apply]</p>
+         <label for="activelistening">
+           <input id="activelistening" value="traits" type="checkbox">Active Listening </label>
+           <label for="rushed">
+             <input type="checkbox" id="rushed" value="traits"> Rushed </label>
+             <label for="thorough">
+               <input id="thorough" value="traits" type="checkbox">Thorough</label>
+               <label for="empathetic">
+                 <input id="empathetic" value="traits" type="checkbox">Empathetic</label><br>
+                 <p>Please describe what we did well and what we could work on below...</p>
+     <textarea id="comments" placeholder="My experience was.." cols="40" rows="10"></textarea> <br>           
+
+      <input type="submit" id="submit">    
+      </form>
+      <hr>
+<footer>
+  <h2>Thank you for your feedback!</h2>
+</footer>
+    </body>
+
+  </html>
+
+
+
+

@@ -1,0 +1,91 @@
+
+
+body {
+  background-color: navy;
+  font-family: consolas;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+#title {
+  color: white;
+  border: 5px solid white;
+  width: 600px;
+  margin: 1em;
+  text-align: center;
+  background-color: rgba(30, 45, 130);
+  padding: 15px 0;
+}
+
+#title:hover {
+  background-color: white;
+  color: rgb(30, 45, 130);
+  border-radius: 10px;
+}
+
+#description {
+  border: 1px solid white;
+  border-left: 25px solid rgb(30, 45, 130);
+  border-right: 25px solid rgb(30, 45, 130);
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  width: 600px;
+  margin: 1em;
+  font-size: 20px;
+  color: rgba(30, 45, 130);
+}
+
+hr {
+  font-size: 40px;
+  border: 10px solid rgb(30, 45, 130)
+}
+
+#survey-form {
+  border: 5px solid rgba(30, 45, 130);
+  padding: 25px;
+  font-size: 18px;
+  color: white;
+}
+label, p, textarea, input {
+  margin: 1em 0 .8em 2em;
+
+}
+
+input, textarea, select {
+  border-radius: 10px;
+  border-color: rgba(30, 45, 130);
+  font-size: 18px;
+  color: rgba(30, 45, 130);
+}
+
+input {
+  cursor: pointer;
+}
+
+textarea {
+  place-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#submit {
+  width: 25%;
+ height: 50px;
+ display: block;
+ cursor: pointer;
+ margin: 20px 40%;
+ background-color: white;
+}
+
+#submit:hover {
+  background-color: rgba(30, 45, 130);
+  color: white;
+  border: 3px dashed white;
+}
+
+h2 {
+  text-align: center;
+}
+
+
